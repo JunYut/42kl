@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../C04"
+		},
+		{
+			"path": "../C05"
+		},
+		{
+			"path": "../C06"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cmath": "c",
+			"complex": "c",
+			"stdlib.h": "c"
+		}
+	}
+}

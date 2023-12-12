@@ -1,0 +1,16 @@
+conditions:
+up = U, down = D, left = l, right = r
+
+1) 	size: column = row, 'x'^2 units total
+2) 	there are 4 sides, each side takes 'x' arguments, 4'x' arguments total
+3) 	base on the 4'x' arguments, each column/row cannot have units with same values
+	ex: U1 == 4, U2 until U4 cannot have the value 4
+4)	base on the argument on each units of the 4 sides you can only see 'argument' amount of 
+	units from that unit
+	ex: if U1 == 2, we can only see 1,1 and 2,1
+5)	Un + Dn >= 3 && Un + Dn <= 5	
+	Rn + Ln >= 3 && Rn + Ln <= 5
+	This is in the case of 4 * 4
+
+	Un + Dn >= 3 && Un + Dn <= x + 1
+	Rn + Ln >= 3 && Un + Dn <= x + 1
